@@ -2,7 +2,7 @@
 pkg install -y root-repo 
 pkg install -y git tsu python wpa-supplicant pixiewps iw
 
-git clone --depth 1 https://github.com/drygdryg/OneShot OneShot
+git clone --depth 1 https://github.com/fulvius31/OneShot OneShot
 
 chmod +x OneShot/oneshot.py
 
