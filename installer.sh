@@ -9,7 +9,7 @@ execute_command() {
 
 execute_command pkg update -y
 execute_command pkg install -y root-repo
-execute_command pkg install -y git tsu python wpa-supplicant pixiewps iw
+execute_command pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
 
 execute_command git clone --depth 1 https://github.com/fulvius31/OneShot OneShot
 
